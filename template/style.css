@@ -1,0 +1,53 @@
+@import url('http://fonts.googleapis.com/css?family=Aptos&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.container a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding:  20px;
+    transition: all 0.4s;
+}
+.container .logo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    background-color: teal;
+}
+.container .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4rem;
+}
+.container .row .title {
+    color: teal;
+}
